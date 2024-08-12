@@ -75,10 +75,21 @@ nav a{
     max-width: 500px;
 }
 /* Main Section Styles */
-
+main{
+    margin: 0px auto;
+    max-width: 1140px;
+}
 /* About Section Styles */
 .about{
     margin: 130px 0px;
     background-color: #FFF8F3;
     padding: 100px 50px;
+    border-radius: 5px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
