@@ -93,3 +93,11 @@ main{
 .about-info{
     text-align: center;
 }
+.section-title{
+    text-align: center;
+}
+
+/* What I do Section */
+#what-i-do-description{
+    padding: 5px 100px;
+}
