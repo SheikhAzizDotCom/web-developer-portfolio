@@ -128,3 +128,17 @@ main{
 .summary-sub-section-item-description{
     margin-top: 5px;
 }
+.summary-sub-section-title{
+    background-color: #fba66a;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.resume-item{
+    margin: 20px 15px;
+    background-color: #fdd7bc;
+    padding: 10px;
+    margin: 0px 10px;
+}
+.resume-hr{
+    border-color: #fba66a;
+}
