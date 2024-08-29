@@ -4,6 +4,10 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;   
 }
+section{
+    margin: 50px 0px;
+    padding: 20px 0px;
+}
 .btn-primary{
     /* width: 150px;
     height: 64px; */
@@ -81,9 +85,8 @@ main{
 }
 /* About Section Styles */
 .about{
-    margin: 130px 0px;
     background-color: #FFF8F3;
-    padding: 100px 50px;
+    padding: 50px 50px;
     border-radius: 5px;
 }
 .about-info-container{
@@ -95,12 +98,13 @@ main{
 }
 .section-title{
     text-align: center;
+    margin-bottom: 40px;
 }
 
 /* What I do Section */
 
 #what-i-do-description{
-    padding: 30px 100px;
+    padding: 0px 50px 30px;
 }
 /* Skills related styles */
 .skills-container{
@@ -147,3 +151,32 @@ main{
     /* padding-top: 10px; */
     margin-top: 20px;
 }
+
+/* Contact section */
+.contact-section{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 50px;
+    margin: 0px 0px;
+    padding: 10px 30px;
+}
+.social-handle{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    /* max-width: 50%; */
+}
+.message-me{
+    padding: 10px 20px;
+    /* max-width: 50%; */
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.social-description{
+    padding-bottom: 20px;
+}
+.text-input-box{
+    margin: 5px 0px;
+}
+/* .message-me-input-box{
+    height: 30px;
+    width: 2px;
+} */
